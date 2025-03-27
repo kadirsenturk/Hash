@@ -103,7 +103,7 @@ window.configure(bg="#2e2e2e")
 
 # Padlock icon
 try:
-    window.iconbitmap("/home/kadir/padlock.ico")
+    window.iconbitmap("C:\Users\Alban\Documents\GitHub\Hash/padlock.ico")
 except:
     pass
 
