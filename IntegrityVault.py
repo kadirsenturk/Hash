@@ -139,4 +139,4 @@ tk.Label(window, text="Result:", bg="#2e2e2e", fg="white").grid(row=7, column=0,
 result_box = tk.Text(window, height=5, width=60, bg="#404040", fg="white")
 result_box.grid(row=7, column=1, padx=5, pady=5)
 
-window.mainloop()
+window.mainloop() 
