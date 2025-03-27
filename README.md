@@ -1,5 +1,5 @@
 # IntegrityVault
-A Python tool for file integrity checking with a 20-character hash generator. Progress bar, tested on Kali Linux.
+My custom tool to keep files safe! Generates unique 20-char hashes using a key, salt, and time. Tested on Kali Linux.
 
 ## How to Run
 1. Clone the repo: `git clone https://github.com/kadirsenturk/IntegrityVault.git`
