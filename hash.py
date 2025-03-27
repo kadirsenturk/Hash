@@ -101,9 +101,10 @@ window.title("IntegrityVault")
 window.geometry("800x500")
 window.configure(bg="#2e2e2e")
 
-# Padlock icon
+# Padlock icon (PNG format for Linux)
 try:
-    window.iconbitmap("C:/Users/Alban/Documents/GitHub/Hash/padlock.ico")
+    icon = tk.PhotoImage(file="padlock.png")
+    window.iconphoto(True, icon)
 except:
     pass
 
